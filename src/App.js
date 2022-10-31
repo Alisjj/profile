@@ -12,6 +12,7 @@ function App() {
         <div className="flex flex-col items-center space-y-3 mt-16">
           <div className="overflow-hidden relative rounded-full focus:border">
             <img
+              id="profile__img"
               className="inset-0 object-cover"
               src="/img/profile-pic.png"
               alt=""
@@ -29,7 +30,11 @@ function App() {
       </header>
       <main>
         <div className="flex flex-col justify-center items-center mx-auto max-w-screen-2xl text-center space-y-5">
-          <Button id="book__design" name="Twitter Link" />
+          <Button
+            id="twitter"
+            link="https://twitter.com/AliyuAlsajjad"
+            name="Twitter Link"
+          />
           <Button
             id="btn__zuri"
             link="https://training.zuri.team/"
