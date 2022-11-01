@@ -2,7 +2,14 @@
   top: -20px;
 }
 
-.bs:hover {
-  background-image: url("/public/img/camera-01.png");
+.bs {
+  background-image: url("/public/img/profile-pic.png");
   background-repeat: no-repeat;
+  /* top: 20px; */
+}
+
+.bs:hover {
+  background-image: url("/public/img/hover.png");
+  background-repeat: no-repeat;
+  /* top: 20px; */
 }

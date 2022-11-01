@@ -10,21 +10,7 @@ function App() {
           <img className="hidden md:block" src="/img/share.png" alt="" />
         </button>
         <div className="flex flex-col items-center space-y-3 mt-16">
-          <div className="overflow-hidden relative rounded-full focus:border">
-            <img
-              id="profile__img"
-              className="inset-0 object-cover"
-              src="/img/profile-pic.png"
-              alt=""
-            />
-            <div className="group absolute inset-0 hover:bg-opacity-50 hover:bg-slate-800">
-              <div
-                className="group-hover w-10 h-10 absolute top-14 inset-x-8 bs"
-                // src="/img/camera-01.png"
-                // alt=""
-              ></div>
-            </div>
-          </div>
+          <div className="group overflow-hidden relative rounded-full focus:border w-24 h-24 bs"></div>
           <h3 className="font-bold text-lg">Annette Black</h3>
         </div>
       </header>
