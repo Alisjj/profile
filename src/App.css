@@ -1,3 +1,8 @@
 .bb {
   top: -20px;
 }
+
+.bs:hover {
+  background-image: url("/public/img/camera-01.png");
+  background-repeat: no-repeat;
+}

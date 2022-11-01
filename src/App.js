@@ -17,12 +17,12 @@ function App() {
               src="/img/profile-pic.png"
               alt=""
             />
-            <div className="absolute inset-0 bg-opacity-50 bg-slate-800">
-              <img
-                className="absolute top-14 inset-x-8"
-                src="/img/camera-01.png"
-                alt=""
-              />
+            <div className="group absolute inset-0 hover:bg-opacity-50 hover:bg-slate-800">
+              <div
+                className="group-hover w-10 h-10 absolute top-14 inset-x-8 bs"
+                // src="/img/camera-01.png"
+                // alt=""
+              ></div>
             </div>
           </div>
           <h3 className="font-bold text-lg">Annette Black</h3>
