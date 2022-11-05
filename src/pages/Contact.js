@@ -29,7 +29,7 @@ function Contact() {
                 </label>
                 <div className="mt-1 p-1">
                   <input
-                    className="w-full md:w-[346px] p-3 border border-gray-300 rounded-lg focus:outline-0"
+                    className="w-full md:w-[346px] p-3 border border-gray-300 rounded-lg focus:outline-0 focus:ring-2 focus:ring-indigo-400"
                     type="text"
                     name="first_name"
                     id="first_name"
@@ -46,7 +46,7 @@ function Contact() {
                 </label>
                 <div className="mt-1 p-1">
                   <input
-                    className=" w-full md:w-[346px] p-3 border border-gray-300 rounded-lg focus:outline-0"
+                    className=" w-full md:w-[346px] p-3 border border-gray-300 rounded-lg focus:outline-0 focus:ring-2 focus:ring-indigo-400"
                     type="text"
                     name="last_name"
                     id="last_name"
@@ -64,7 +64,7 @@ function Contact() {
               </label>
               <div className="mt-1 p-1">
                 <input
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
                   type="text"
                   name=""
                   id="email"
@@ -88,7 +88,7 @@ function Contact() {
                   placeholder="Enter your first name."
                 /> */}
                 <textarea
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
                   placeholder="Send me message and i'll reply you as soon as possible..."
                   name="message"
                   id="message"
