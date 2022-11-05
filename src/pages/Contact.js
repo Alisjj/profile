@@ -70,7 +70,7 @@ function Contact() {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your first name."
+                  placeholder="Enter your email."
                   required
                 />
               </div>
