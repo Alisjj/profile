@@ -7,6 +7,8 @@ function Contact() {
   const [message, setMessage] = useState("");
   const [agreement, setAgreement] = useState(false);
 
+  const name = "Aliyu Sani";
+
   const handleSubmit = () => {};
 
   return (
@@ -113,7 +115,7 @@ function Contact() {
                 htmlFor="terms-and-privacy"
                 className="ml-2 block text-sm text-gray-600"
               >
-                You agree to providing your data to who may contact you.
+                You agree to providing your data to {name} who may contact you?
               </span>
             </div>
             <button
