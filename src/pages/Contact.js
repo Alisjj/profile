@@ -103,7 +103,6 @@ function Contact() {
             <div className="flex">
               <input
                 className="focus:outline-none"
-                id="terms-and-privacy"
                 name="terms-and-privacy"
                 type="checkbox"
                 value={agreement}
